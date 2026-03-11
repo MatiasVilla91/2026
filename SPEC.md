@@ -137,3 +137,25 @@ Estado esperado:
 - la landing muestra 9 tarjetas desplegables de modulos
 - el tono del contenido sigue siendo claro, comercial y facil de escanear
 - la seccion conserva el mismo estilo visual y responsive actual
+
+## 13. Nueva seccion visual - Galeria de fotos
+
+Se incorporo una seccion de fotos dentro del flujo principal de la landing para mostrar ejemplos visuales del tipo de piezas que el curso permite crear.
+
+- la nueva galeria usa imagenes existentes de `img/`
+- se mantuvo el tono calido, artesanal y elegante del sitio
+- la seccion se integro sin romper el ritmo compacto entre bloques
+
+Estado esperado:
+
+- la landing muestra una galeria de fotos despues del bloque visual principal
+- las imagenes se ven prolijas en desktop y mobile
+- la seccion refuerza el valor visual del producto sin competir con los CTAs
+
+## 14. Ajuste de contenido - Eliminacion de bonos
+
+Se elimino la seccion `Bonos y recursos extra` de la landing.
+
+- ya no se muestran recursos complementarios como bloque independiente
+- el flujo queda mas directo entre modulos y argumentos de conversion
+- no fue necesario cambiar estilos globales para este ajuste
