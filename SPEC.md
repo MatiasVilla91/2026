@@ -159,3 +159,35 @@ Se elimino la seccion `Bonos y recursos extra` de la landing.
 - ya no se muestran recursos complementarios como bloque independiente
 - el flujo queda mas directo entre modulos y argumentos de conversion
 - no fue necesario cambiar estilos globales para este ajuste
+
+## 15. Reordenamiento de secciones para conversion
+
+Se ajusto el orden del contenido principal para que la landing presente antes los argumentos de valor, la prueba social y el contenido concreto del programa.
+
+Nuevo orden esperado dentro de `main`:
+
+- resultados del programa
+- testimonios
+- bloque visual de valor percibido
+- galeria de fotos
+- contenido del programa
+- identificacion con la audiencia
+- manejo de objeciones
+- presentacion de la creadora
+- garantia
+- preguntas frecuentes
+- oferta final con CTA
+
+Criterio aplicado:
+
+- mostrar primero la transformacion prometida
+- sumar confianza temprano con prueba social
+- exhibir antes el contenido del curso para justificar la compra
+- dejar la identificacion y objeciones despues de que el valor ya esta claro
+- mantener garantia, FAQ y CTA final en la parte baja para cerrar la decision
+
+Estado esperado:
+
+- el usuario entiende rapido que logra, ve prueba real y luego descubre que incluye
+- la landing reduce friccion en el tramo medio
+- el cierre mantiene respaldo y claridad sin cortar el ritmo comercial
