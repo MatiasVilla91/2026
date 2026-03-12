@@ -266,7 +266,6 @@ Se agrego un footer legal al final de la landing, inmediatamente antes del cierr
 
 - el bloque incorpora copyright de marca
 - se agregan enlaces a `privacidad.html`, `cookies.html` y `terminos.html`
-- se incluye un boton `Configurar cookies` con id `openCookieSettings`
 - se suma un disclaimer breve sobre enlaces de afiliado y procesamiento de pago en Hotmart
 
 Estado esperado:
@@ -289,5 +288,48 @@ Estado esperado:
 
 - al entrar por primera vez, el usuario ve un banner de cookies
 - no se activan etiquetas de marketing o analytics antes del consentimiento
-- el usuario puede aceptar, rechazar o configurar preferencias
-- el boton `Configurar cookies` del footer vuelve a abrir la configuracion
+- el usuario puede aceptar o rechazar las cookies no esenciales
+
+## 23. Ajuste tecnico - Sitemap ampliado
+
+Se fortalecio el sitemap XML para que refleje mejor las URLs publicas reales del sitio.
+
+- se mantuvo la home como URL principal del sitemap
+- se agregaron las rutas legales publicas `privacidad`, `cookies` y `terminos`
+- se conservaron prioridades mas bajas para las paginas legales y prioridad maxima para la landing principal
+
+Estado esperado:
+
+- `sitemap.xml` lista las rutas indexables relevantes del sitio
+- Search Console recibe un sitemap mas completo y consistente con la navegacion publicada
+- la home sigue siendo la URL de mayor prioridad de rastreo
+
+## 24. Ajuste visual - Banner de cookies
+
+Se refino la estetica del consentimiento de cookies para integrarlo mejor con la identidad calida y artesanal de la landing.
+
+- se aumento el padding interno del banner para evitar que el texto quede pegado a los bordes
+- se reemplazo el fondo blanco plano por fondos calidos con degradado suave
+- se ajustaron bordes, radios y sombras para que el bloque se sienta mas elegante y menos tecnico
+- el titulo del banner adopta una presencia visual mas alineada con la tipografia decorativa del sitio
+- en mobile los botones pasan a ancho completo para mejorar aire y legibilidad
+
+Estado esperado:
+
+- el banner de cookies se ve mas integrado con la web y menos ajeno al sistema visual
+- el texto respira mejor y no queda pegado al contenedor
+
+## 25. Simplificacion funcional - Consentimiento de cookies
+
+Se simplifico el flujo para hacerlo mas directo y menos tecnico.
+
+- se elimino la opcion `Configurar` del banner
+- se retiro el acceso a configuracion desde el footer
+- el consentimiento queda resuelto solo con `Aceptar` o `Rechazar`
+- se actualizaron los textos para reflejar esta version simplificada
+
+Estado esperado:
+
+- el usuario entiende la decision mas rapido
+- el banner se siente mas simple y liviano
+- no quedan referencias visibles a configuraciones avanzadas que ya no existen
