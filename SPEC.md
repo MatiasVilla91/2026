@@ -169,6 +169,7 @@ Nuevo orden esperado dentro de `main`:
 - resultados del programa
 - testimonios
 - bloque visual de valor percibido
+- vista previa en video
 - galeria de fotos
 - contenido del programa
 - identificacion con la audiencia
@@ -205,3 +206,40 @@ Estado esperado:
 - la autora se presenta en tercera persona
 - el texto suena natural y consistente con el resto del sitio
 - no da la sensacion de que quien publica la landing habla como si fuera la autora
+
+## 17. Nueva seccion visual - Vista previa en video
+
+Se incorporo un bloque compacto con video para mostrar una pequena muestra del curso dentro del flujo principal de la landing.
+
+- el video se integro como una pieza visual pequena, sin dominar la pantalla
+- se utilizo un copy breve y comercial alineado con el tono calido del sitio
+- la seccion se ubico antes de la galeria de fotos y del bloque de contenido del programa para reforzar curiosidad y valor percibido
+- se mantuvo un diseno sobrio, elegante y responsive
+
+Estado esperado:
+
+- la landing muestra un bloque con el mensaje `Asoma un ojo al curso por dentro`
+- el video se ve pequeno, prolijo y bien enmarcado en desktop y mobile
+- la nueva seccion acompana la conversion sin romper la estetica artesanal y femenina actual
+
+## 18. Ajuste visual - Vista previa en video
+
+Se hizo un ajuste menor sobre el bloque de video para mejorar presencia visual y legibilidad del mensaje.
+
+- se aumento moderadamente el ancho visible del reproductor en desktop y mobile
+- se acorto el titulo del bloque para hacerlo mas directo y facil de escanear
+- se mantuvo el caracter compacto de la seccion, sin convertirla en un hero secundario
+
+Estado esperado:
+
+- el cuadro del video se percibe mas comodo y menos chico
+- el titulo del bloque se lee mas rapido
+- la seccion sigue integrada con el ritmo visual general de la landing
+
+## 19. Ajuste de contenido - Testimonios
+
+Se elimino el testimonio mas largo del bloque de prueba social para mantener una lectura mas limpia y una grilla visualmente mas prolija.
+
+- se quito el comentario de Maria del 16 de febrero de 2026
+- se priorizo un conjunto de testimonios mas breves y faciles de escanear
+- no se modifico el estilo general de la seccion
