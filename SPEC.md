@@ -191,3 +191,17 @@ Estado esperado:
 - el usuario entiende rapido que logra, ve prueba real y luego descubre que incluye
 - la landing reduce friccion en el tramo medio
 - el cierre mantiene respaldo y claridad sin cortar el ritmo comercial
+
+## 16. Ajuste de tono - Presentacion de la creadora
+
+Se actualizo el bloque `Conoce a la creadora` para que la presentacion de Karen Isabel quede redactada en tercera persona.
+
+- se elimino la voz en primera persona dentro del bloque de autora
+- se mantuvo el tono cercano, calido y comercial del resto de la landing
+- no se modifico la estructura visual de la seccion, solo el copy
+
+Estado esperado:
+
+- la autora se presenta en tercera persona
+- el texto suena natural y consistente con el resto del sitio
+- no da la sensacion de que quien publica la landing habla como si fuera la autora
