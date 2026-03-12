@@ -173,7 +173,6 @@ Nuevo orden esperado dentro de `main`:
 - galeria de fotos
 - contenido del programa
 - identificacion con la audiencia
-- manejo de objeciones
 - presentacion de la creadora
 - garantia
 - preguntas frecuentes
@@ -184,7 +183,7 @@ Criterio aplicado:
 - mostrar primero la transformacion prometida
 - sumar confianza temprano con prueba social
 - exhibir antes el contenido del curso para justificar la compra
-- dejar la identificacion y objeciones despues de que el valor ya esta claro
+- dejar la identificacion con la audiencia despues de que el valor ya esta claro
 - mantener garantia, FAQ y CTA final en la parte baja para cerrar la decision
 
 Estado esperado:
