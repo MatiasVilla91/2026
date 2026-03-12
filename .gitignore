@@ -1,2 +1,7 @@
 *.txt
-/img
+/img/*
+!/img/2.png
+!/img/jabon.png
+!/img/J1.jpg
+!/img/J2.jpg
+!/img/J3.jpg
