@@ -243,3 +243,19 @@ Se elimino el testimonio mas largo del bloque de prueba social para mantener una
 - se quito el comentario de Maria del 16 de febrero de 2026
 - se priorizo un conjunto de testimonios mas breves y faciles de escanear
 - no se modifico el estilo general de la seccion
+
+## 20. Ajuste tecnico - SEO base y compartido social
+
+Se aplico una optimizacion SEO conservadora para mejorar lectura tecnica, indexacion y previsualizacion del enlace sin alterar el copy principal visible de la landing.
+
+- se ajusto el `title` para incluir la busqueda principal `curso de jabones de glicerina online`
+- se actualizo la `meta description` con una formulacion mas clara para buscadores
+- se agrego `meta robots` con `index, follow`
+- se incorporaron etiquetas `Open Graph` y `Twitter Card` para mejorar compartido social
+- se mantuvo intacto el cuerpo comercial de la landing
+
+Estado esperado:
+
+- Google entiende con mas claridad la tematica principal de la pagina
+- la URL tiene mejores senales basicas de indexacion
+- al compartir el enlace deberia mostrarse una vista previa mas consistente
