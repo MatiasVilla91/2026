@@ -2,6 +2,7 @@
 !robots.txt
 /img/*
 !/img/2.png
+!/img/background.jpg
 !/img/jabon.png
 !/img/J1.jpg
 !/img/J2.jpg
