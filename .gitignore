@@ -1,4 +1,5 @@
 *.txt
+!robots.txt
 /img/*
 !/img/2.png
 !/img/jabon.png
