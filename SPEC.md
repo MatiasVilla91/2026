@@ -259,3 +259,35 @@ Estado esperado:
 - Google entiende con mas claridad la tematica principal de la pagina
 - la URL tiene mejores senales basicas de indexacion
 - al compartir el enlace deberia mostrarse una vista previa mas consistente
+
+## 21. Nuevo bloque estructural - Footer legal
+
+Se agrego un footer legal al final de la landing, inmediatamente antes del cierre de `body`.
+
+- el bloque incorpora copyright de marca
+- se agregan enlaces a `privacidad.html`, `cookies.html` y `terminos.html`
+- se incluye un boton `Configurar cookies` con id `openCookieSettings`
+- se suma un disclaimer breve sobre enlaces de afiliado y procesamiento de pago en Hotmart
+
+Estado esperado:
+
+- la landing cierra con un bloque legal independiente del contenido principal
+- los enlaces legales quedan accesibles desde el pie de pagina
+- el texto de afiliacion queda visible al final del recorrido comercial
+
+## 22. Consentimiento de cookies y tracking
+
+Se agrego un flujo base de consentimiento para cookies y etiquetas de medicion.
+
+- se carga `legal.css` para estilos del footer legal, banner y modal
+- se define `gtag consent default` con almacenamiento denegado por defecto
+- se agrega `legal.js` al final de `body` para manejar banner, preferencias y persistencia local
+- el Meta Pixel deja de inicializarse automaticamente y pasa a depender del consentimiento otorgado
+- la configuracion contempla un campo `gaId` para una futura integracion de Google Analytics o Google Ads
+
+Estado esperado:
+
+- al entrar por primera vez, el usuario ve un banner de cookies
+- no se activan etiquetas de marketing o analytics antes del consentimiento
+- el usuario puede aceptar, rechazar o configurar preferencias
+- el boton `Configurar cookies` del footer vuelve a abrir la configuracion
