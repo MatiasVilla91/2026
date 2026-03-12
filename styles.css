@@ -70,7 +70,7 @@ body {
     linear-gradient(90deg, rgba(255, 250, 244, 0.5) 0%, rgba(255, 250, 244, 0.18) 46%, rgba(255, 250, 244, 0.56) 100%),
     url("./img/background.jpg");
   background-position: center -15px;
-  background-size: cover;
+  background-size: auto 108%;
   background-repeat: no-repeat;
 }
 
@@ -123,6 +123,7 @@ h3 {
 
 h1 {
   font-size: clamp(1.72rem, 3.95vw, 3.3rem);
+  line-height: 1.02;
   margin-bottom: 0.7rem;
   max-width: 18ch;
 }
@@ -620,7 +621,7 @@ h3 {
       linear-gradient(90deg, rgba(255, 250, 244, 0.58) 0%, rgba(255, 250, 244, 0.28) 100%),
       url("./img/background.jpg");
     background-position: 64% -120px;
-    background-size: auto 118%;
+    background-size: auto 112%;
   }
 
   .topbar {
