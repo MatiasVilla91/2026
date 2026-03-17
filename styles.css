@@ -311,7 +311,8 @@ h3 {
 
 .hero-card-content h2 {
   font-size: clamp(1.45rem, 2.2vw, 2rem);
-  max-width: 14ch;
+  max-width: 19ch;
+  line-height: 1.12;
 }
 
 .hero-card-eyebrow {
