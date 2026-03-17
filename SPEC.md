@@ -479,3 +479,17 @@ Estado esperado:
 
 - el titular principal corta menos
 - la lectura del hero se siente mas corrida y mas facil de escanear
+
+## 30. Ajuste visual - Alineacion en galeria de resultados
+
+Se refino la seccion `Lo que puedes llegar a crear` para mejorar la relacion visual entre las imagenes y las tres cards descriptivas.
+
+- la grilla lateral de cards paso a distribuirse en alturas mas parejas
+- se ajusto el layout para que ambas columnas respiren mejor como un mismo bloque
+- el contenido interno de cada card se centro mejor en su espacio disponible
+
+Estado esperado:
+
+- la columna de imagenes y la columna de cards se perciben mas alineadas
+- la seccion se ve mas prolija y equilibrada en desktop
+- en mobile el bloque mantiene su flujo simple y sin rigideces innecesarias
