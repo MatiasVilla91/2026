@@ -332,3 +332,150 @@ Estado esperado:
 - el usuario entiende la decision mas rapido
 - el banner se siente mas simple y liviano
 - no quedan referencias visibles a configuraciones avanzadas que ya no existen
+
+## 26. Reestructuracion comercial - Landing orientada a conversion
+
+Se realizo una nueva iteracion con foco explicito en performance marketing para trafico frio proveniente de Meta Ads.
+
+Objetivo de esta version:
+
+- aumentar claridad comercial en los primeros segundos
+- mejorar el CTR hacia Hotmart
+- reducir friccion y dispersion dentro del recorrido
+- hacer la pagina mas escaneable en mobile
+
+### 26.1 Cambio de enfoque general
+
+La landing dejo de priorizar un tono mayormente inspiracional e informativo para pasar a una estructura mas directa, persuasiva y orientada a decision.
+
+Se mantuvo la estetica femenina, calida y artesanal, pero subordinada a claridad comercial.
+
+### 26.2 Nueva jerarquia de la pagina
+
+Nuevo orden esperado dentro de `main`:
+
+- objeciones comunes
+- transformacion / resultado
+- testimonios
+- bloque visual de resultados esperados
+- resumen escaneable de que incluye el curso
+- bloque para quien es / para quien no es
+- presentacion breve de la creadora
+- garantia
+- FAQ breve
+- CTA final
+
+### 26.3 Hero de alta claridad
+
+El hero fue replanteado para conectar con trafico frio en menos de 3 segundos.
+
+Cambios aplicados:
+
+- titular principal mas directo y orientado al resultado
+- subtitulo mas concreto sobre el tipo de alumna y el beneficio principal
+- incorporacion de 4 bullets de confianza arriba del pliegue
+- CTA principal mas especifico y orientado a la accion real
+- CTA secundario de exploracion hacia `Que incluye`
+- tarjeta lateral con resumen de oferta para reforzar comprension inmediata
+- micropruebas visibles: `100% online`, `Garantia de 7 dias`, `Ideal para hobby o emprendimiento`
+
+### 26.4 Objeciones y friccion
+
+Se agrego un bloque temprano de objeciones con el mensaje:
+
+- `Si viste el video y pensaste esto...`
+
+Funcion esperada:
+
+- contener dudas tipicas de una visitante fria
+- responder barreras antes de pedir una decision fuerte
+- mejorar continuidad de lectura desde anuncios y video
+
+### 26.5 Contenido eliminado o fusionado
+
+Para simplificar el recorrido y evitar dispersion:
+
+- se elimino el bloque de video embebido
+- se retiro el bloque visual narrativo separado
+- se sintetizo el contenido del programa en una grilla mas escaneable
+- se dejo el temario extendido dentro de un desplegable, en vez de exponer muchas tarjetas largas de entrada
+
+### 26.6 Prueba social y conversion
+
+Los testimonios quedaron mas arriba en la landing para reforzar confianza antes del detalle de contenido.
+
+Estado esperado:
+
+- una visitante fria ve antes la validacion de otras alumnas
+- la prueba social aparece antes de pedir demasiado esfuerzo de lectura
+
+### 26.7 Bloques de decision
+
+Se incorporaron o reforzaron bloques pensados para ayudar a decidir:
+
+- transformacion / resultado
+- resultados visuales esperados
+- para quien es / para quien no es
+- garantia con CTA propio
+- FAQ breve y concreta
+- CTA final orientado a ver el curso y el precio en Hotmart
+
+### 26.8 Lineamientos de copy para esta version
+
+El copy de esta iteracion debe mantener estas caracteristicas:
+
+- lenguaje concreto
+- promesa realista
+- enfasis en `desde cero`, `paso a paso`, `online`, `hobby o emprendimiento`
+- foco en piezas lindas, delicadas y con mejor terminacion
+- bajo uso de lenguaje poetico o abstracto
+
+### 26.9 Estado visual esperado
+
+La landing debe sentirse:
+
+- mas directa
+- mas comercial
+- menos dispersa
+- mas facil de escanear en mobile
+- mas clara para una usuaria que llega sin contexto previo
+
+## 27. Ajuste visual - Video en el hero
+
+Se reemplazo la imagen estatica del resumen de oferta en el hero por un video vertical alojado en Cloudinary.
+
+- el cambio se aplico dentro de `.hero-card`, conservando la misma estructura del bloque
+- el video se reproduce automaticamente, en silencio, en loop y con `playsinline`
+- se mantuvo el mismo criterio visual de tarjeta calida y compacta
+- se definio un encuadre consistente para desktop y mobile con `object-fit: cover`
+
+Estado esperado:
+
+- el lateral del hero muestra video en lugar de imagen fija
+- el bloque mantiene proporciones prolijas y no rompe el layout responsive
+- la pieza visual refuerza el valor percibido sin competir con el copy principal
+
+## 28. Ajuste fino - Jerarquia del hero
+
+Se hizo un refinamiento visual sobre el bloque superior para mejorar lectura y balance entre copy y pieza multimedia.
+
+- la tarjeta lateral del hero se subio levemente en desktop para que quede mas cerca del arranque del contenido
+- el `h1` amplio su ancho util para reducir cortes de linea y lograr una lectura mas lineal
+- en mobile se mantuvo un comportamiento estable, sin desplazar artificialmente la tarjeta
+
+Estado esperado:
+
+- el video del hero se percibe un poco mas arriba dentro de la composicion
+- el titulo principal se lee con menos saltos y mejor ritmo visual
+
+## 29. Ajuste fino adicional - H1 mas lineal
+
+Se hizo un segundo ajuste menor en el hero para estirar un poco mas la caja de texto principal.
+
+- se amplio el ancho maximo de `.hero-copy`
+- se aumento nuevamente el ancho util del `h1` en desktop
+
+Estado esperado:
+
+- el titular principal corta menos
+- la lectura del hero se siente mas corrida y mas facil de escanear
