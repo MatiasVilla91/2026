@@ -51,10 +51,11 @@ La pagina incluye, en este orden:
 
 1. dos formas decorativas de fondo fijas
 2. `header.hero` con navbar y hero principal
-3. `main` con todas las secciones comerciales
-4. `footer.legal-footer`
-5. script inline de consentimiento por defecto para `gtag`
-6. carga de `legal.js`
+3. bloque CTA puente entre hero y objeciones
+4. `main` con todas las secciones comerciales
+5. `footer.legal-footer`
+6. script inline de consentimiento por defecto para `gtag`
+7. carga de `legal.js`
 
 ## 5. Navbar
 
@@ -154,17 +155,18 @@ La tarjeta `.hero-card` resume la oferta y contiene:
 
 El orden actual esperado es el siguiente:
 
-1. Objeciones comunes
-2. Transformacion / resultado
-3. Antes y despues
-4. Testimonios
-5. Galeria visual de resultados
-6. Que incluye el curso
-7. Encaje del curso
-8. Creadora del curso
-9. Garantia
-10. FAQ breve
-11. Oferta final
+1. CTA puente
+2. Objeciones comunes
+3. Transformacion / resultado
+4. Antes y despues
+5. Testimonios
+6. Galeria visual de resultados
+7. Que incluye el curso
+8. Encaje del curso
+9. Creadora del curso
+10. Garantia
+11. FAQ breve
+12. Oferta final
 
 ## 8. Descripcion de secciones
 
@@ -179,7 +181,24 @@ Mensajes actuales:
 - deseo de lograr un mejor resultado visual
 - duda entre hobby o salida comercial
 
-### 8.2 Transformacion / resultado
+### 8.2 CTA puente
+
+Bloque `.bridge-cta` ubicado inmediatamente despues del hero y antes de objeciones.
+
+Incluye:
+
+- kicker `Empieza hoy`
+- titulo corto orientado a entrar de inmediato
+- parrafo de apoyo sobre acceso online y garantia
+- CTA principal `Quiero empezar ahora`
+- micropruebas:
+  - `100% online`
+  - `Acceso inmediato`
+  - `Garantia de 7 dias`
+
+Su funcion es capturar a la visitante de alta intencion antes de entrar al bloque de objeciones.
+
+### 8.3 Transformacion / resultado
 
 Bloque `#resultado` con 3 cards que explican el cambio prometido:
 
@@ -191,7 +210,7 @@ Incluye un CTA inline:
 
 - `Quiero empezar con una guia clara`
 
-### 8.3 Antes y despues
+### 8.4 Antes y despues
 
 Seccion comparativa con dos cards:
 
@@ -200,7 +219,7 @@ Seccion comparativa con dos cards:
 
 Su funcion es volver tangible el cambio entre aprender con contenido suelto y seguir un metodo completo.
 
-### 8.4 Testimonios
+### 8.5 Testimonios
 
 Bloque `.testimonials` con:
 
@@ -208,6 +227,7 @@ Bloque `.testimonials` con:
 - subtitulo que enfatiza claridad y paso a paso
 - grilla de 4 testimonios
 - rating visual `5/5`
+- CTA inline `Yo tambien quiero aprender`
 
 El foco del bloque esta en:
 
@@ -216,7 +236,7 @@ El foco del bloque esta en:
 - facilidad de seguimiento
 - primer paso para emprender
 
-### 8.5 Galeria visual de resultados
+### 8.6 Galeria visual de resultados
 
 Bloque `.photo-gallery` con:
 
@@ -232,10 +252,11 @@ Comportamiento responsive esperado:
 - en mobile se oculta la imagen `J1`
 - la galeria se simplifica sin perder claridad
 
-### 8.6 Que incluye el curso
+### 8.7 Que incluye el curso
 
 Bloque `#incluye` con:
 
+- CTA inline superior `Quiero ver todo lo que incluye`
 - titulo centrado en base solida y errores comunes
 - grilla de 6 cards de contenido
 - desplegable `details` con temario resumido de 9 modulos
@@ -262,7 +283,7 @@ El temario resumido del desplegable lista 9 modulos:
 - emprendimiento desde casa
 - jabones tematicos y temporadas
 
-### 8.7 Encaje del curso
+### 8.8 Encaje del curso
 
 Bloque `.audience` con dos cards:
 
@@ -271,7 +292,7 @@ Bloque `.audience` con dos cards:
 
 Sirve para calificar mejor a la visitante y bajar objeciones antes del cierre.
 
-### 8.8 Creadora del curso
+### 8.9 Creadora del curso
 
 Bloque `.creator-section` con:
 
@@ -282,8 +303,9 @@ Bloque `.creator-section` con:
   - `+15 anos de experiencia`
   - `Metodo paso a paso`
   - `Enfoque practico y cercano`
+- CTA inline `Quiero aprender con Karen`
 
-### 8.9 Garantia
+### 8.10 Garantia
 
 Bloque `.guarantee` con caja central destacada.
 
@@ -293,7 +315,7 @@ Mensajes actuales:
 - 7 dias para revisar y decidir
 - CTA: `Quiero entrar con garantia`
 
-### 8.10 FAQ breve
+### 8.11 FAQ breve
 
 Bloque `.faq` con 5 preguntas desplegables sobre:
 
@@ -302,8 +324,9 @@ Bloque `.faq` con 5 preguntas desplegables sobre:
 - hobby
 - modalidad online
 - devolucion
+- CTA inline `Quiero entrar ahora`
 
-### 8.11 Oferta final
+### 8.12 Oferta final
 
 Bloque `.offer` orientado al cierre con:
 
