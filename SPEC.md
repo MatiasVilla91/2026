@@ -117,7 +117,7 @@ Elementos actuales:
 
 CTA principal:
 
-- texto: `Quiero aprender desde cero`
+- texto: `Quiero entrar al curso`
 - link externo a Hotmart
 - estilo `btn btn-primary`
 
@@ -194,7 +194,7 @@ Incluye:
 - kicker `Empieza hoy`
 - titulo: `Tus manos pueden crear cosas hermosas, solo necesitás dar el primer paso`
 - parrafo de apoyo sobre acceso online y garantia
-- CTA principal `Quiero empezar ahora`
+- CTA principal `Quiero entrar al curso`
 - micropruebas:
   - `100% online`
   - `Acceso inmediato`
@@ -212,7 +212,7 @@ Bloque `#resultado` con 3 cards que explican el cambio prometido:
 
 Incluye un CTA inline:
 
-- `Quiero empezar con una guia clara`
+- `Quiero entrar al curso`
 
 ### 8.4 Antes y despues
 
@@ -231,7 +231,7 @@ Bloque `.testimonials` con:
 - subtitulo que enfatiza claridad y paso a paso
 - grilla de 4 testimonios
 - rating visual `5/5`
-- CTA inline `Yo tambien quiero aprender`
+- CTA inline `Quiero entrar al curso`
 
 El foco del bloque esta en:
 
@@ -260,11 +260,11 @@ Comportamiento responsive esperado:
 
 Bloque `#incluye` con:
 
-- CTA inline superior `Quiero ver todo lo que incluye`
+- CTA inline superior `Quiero entrar al curso`
 - titulo centrado en base solida y errores comunes
 - grilla de 6 cards de contenido
 - desplegable `details` con temario resumido de 9 modulos
-- CTA inline `Quiero ver el programa`
+- CTA inline `Quiero entrar al curso`
 
 Las 6 cards actuales cubren:
 
@@ -307,7 +307,7 @@ Bloque `.creator-section` con:
   - `+15 anos de experiencia`
   - `Metodo paso a paso`
   - `Enfoque practico y cercano`
-- CTA inline `Quiero aprender con Karen`
+- CTA inline `Quiero entrar al curso`
 
 ### 8.10 Garantia
 
@@ -317,7 +317,7 @@ Mensajes actuales:
 
 - compra con tranquilidad
 - 7 dias para revisar y decidir
-- CTA: `Quiero entrar con garantia`
+- CTA: `Quiero entrar al curso`
 
 ### 8.11 FAQ breve
 
@@ -328,7 +328,7 @@ Bloque `.faq` con 5 preguntas desplegables sobre:
 - hobby
 - modalidad online
 - devolucion
-- CTA inline `Quiero entrar ahora`
+- CTA inline `Quiero entrar al curso`
 
 ### 8.12 Oferta final
 
