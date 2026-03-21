@@ -363,6 +363,10 @@ Mensajes actuales:
 
 Bloque `.faq` con 5 preguntas desplegables sobre:
 
+Kicker actual:
+
+- `Para avanzar con confianza`
+
 - experiencia previa
 - materiales
 - hobby
@@ -374,7 +378,7 @@ Bloque `.faq` con 5 preguntas desplegables sobre:
 
 Bloque `.offer` orientado al cierre con:
 
-- kicker `Ultimo paso`
+- kicker `Cuando quieras empezar, aqui esta tu siguiente paso`
 - titulo centrado en empezar hoy y dejar la prueba y error
 - fila de micropruebas finales sobre modalidad, ritmo, pago seguro y garantia
 - CTA final `Quiero entrar ahora`
