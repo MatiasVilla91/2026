@@ -166,11 +166,12 @@ El orden actual esperado es el siguiente:
 5. Testimonios
 6. Galeria visual de resultados
 7. Que incluye el curso
-8. Encaje del curso
+8. Vista del curso por dentro
 9. Creadora del curso
-10. Garantia
-11. FAQ breve
-12. Oferta final
+10. Encaje del curso
+11. Garantia
+12. FAQ breve
+13. Oferta final
 
 ## 8. Descripcion de secciones
 
@@ -287,14 +288,26 @@ El temario resumido del desplegable lista 9 modulos:
 - emprendimiento desde casa
 - jabones tematicos y temporadas
 
-### 8.8 Encaje del curso
+### 8.8 Vista del curso por dentro
 
-Bloque `.audience` con dos cards:
+Bloque `.course-preview` ubicado despues de `#incluye` y antes de la seccion de creadora.
 
-- `Este curso es para ti si...`
-- `Probablemente no sea para ti si...`
+Su funcion es responder de forma visual la objecion `que voy a recibir exactamente` sin competir con el hero.
 
-Sirve para calificar mejor a la visitante y bajar objeciones antes del cierre.
+Incluye:
+
+- titulo `Mira el curso por dentro`
+- subtitulo orientado a mostrar la plataforma y el tipo de clases antes de entrar
+- video HTML5 alojado en Cloudinary
+- contenedor refinado con fondo claro, borde suave y sombra calida
+- microfrase de apoyo para remarcar que se puede ver con claridad que incluye
+- CTA `Quiero empezar hoy`
+
+Comportamiento esperado:
+
+- se integra visualmente con el resto de las cards premium del sitio
+- el video funciona como prueba visual del producto, no como pieza emocional principal
+- en mobile mantiene proporcion limpia, sin desbordes y con CTA a ancho completo
 
 ### 8.9 Creadora del curso
 
@@ -306,10 +319,21 @@ Bloque `.creator-section` con:
 - highlights:
   - `+15 anos de experiencia`
   - `Metodo paso a paso`
-  - `Enfoque practico y cercano`
+- `Enfoque practico y cercano`
 - CTA inline `Quiero aprender desde cero`
 
-### 8.10 Garantia
+### 8.10 Encaje del curso
+
+Bloque `.audience` reubicado despues de la seccion de creadora y antes de garantia.
+
+Incluye dos cards:
+
+- `Este curso es para ti si...`
+- `Probablemente no sea para ti si...`
+
+Su funcion es calificar mejor a la visitante en la parte final del recorrido, justo antes de los bloques de cierre.
+
+### 8.11 Garantia
 
 Bloque `.guarantee` con caja central destacada.
 
@@ -319,7 +343,7 @@ Mensajes actuales:
 - 7 dias para revisar y decidir
 - CTA: `Quiero entrar ahora`
 
-### 8.11 FAQ breve
+### 8.12 FAQ breve
 
 Bloque `.faq` con 5 preguntas desplegables sobre:
 
@@ -330,7 +354,7 @@ Bloque `.faq` con 5 preguntas desplegables sobre:
 - devolucion
 - CTA inline `Quiero aprender desde cero`
 
-### 8.12 Oferta final
+### 8.13 Oferta final
 
 Bloque `.offer` orientado al cierre con:
 
