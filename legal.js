@@ -92,6 +92,8 @@ function applyConsent(consent) {
 }
 
 function createBanner() {
+  if (document.getElementById('cookieBanner')) return;
+
   const banner = document.createElement('div');
   banner.className = 'cookie-banner';
   banner.id = 'cookieBanner';
@@ -124,14 +126,33 @@ function createBanner() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  createBanner();
+function scheduleBanner() {
+  const showBanner = () => {
+    window.setTimeout(() => {
+      createBanner();
+    }, 1200);
+  };
 
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(showBanner, { timeout: 2000 });
+    return;
+  }
+
+  showBanner();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
   const saved = getConsent();
 
   if (saved) {
     applyConsent(saved);
-    const banner = document.getElementById('cookieBanner');
-    if (banner) banner.hidden = true;
+    return;
   }
+
+  if (document.readyState === 'complete') {
+    scheduleBanner();
+    return;
+  }
+
+  window.addEventListener('load', scheduleBanner, { once: true });
 });
