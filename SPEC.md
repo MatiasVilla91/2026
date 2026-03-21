@@ -107,7 +107,7 @@ Elementos actuales:
 
 - kicker: `Curso online paso a paso para principiantes`
 - carrusel horizontal automatico con imagenes de resultados del curso
-- `h1`: `Aprende a crear jabones de glicerina hermosos paso a paso desde cero`
+- `h1`: `Aprende a crear jabones de glicerina hermosos paso a paso y desde cero`
 - parrafo de apoyo orientado a hobby, regalo o primeros pasos de venta
 - lista `trust-bullets` con 4 puntos de confianza
 - bloque `hero-actions` con CTA principal y CTA secundario
