@@ -847,6 +847,7 @@ h3 {
   .hero-copy {
     max-width: 24rem;
     width: 100%;
+    min-width: 0;
     text-align: left;
   }
 
@@ -858,10 +859,12 @@ h3 {
 
   .hero-carousel {
     display: block;
-    width: 100%;
-    max-width: 22.6rem;
+    width: min(100%, 22.2rem);
+    max-width: 100%;
+    min-width: 0;
     margin: 0 auto 0.65rem;
     padding: 0.05rem 0;
+    overflow: clip;
   }
 
   .hero-carousel::before,
@@ -875,7 +878,7 @@ h3 {
   }
 
   .hero-carousel-card {
-    width: 5.2rem;
+    width: 5.1rem;
     border-radius: 14px;
     box-shadow: 0 10px 18px rgba(95, 59, 32, 0.1);
   }
