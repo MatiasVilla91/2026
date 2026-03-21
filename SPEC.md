@@ -497,7 +497,7 @@ La pagina define:
 - consentimiento por defecto denegado para `gtag`
 - carga de `legal.js` para manejar interaccion legal y de cookies
 - configuracion global para Meta Pixel y GA
-- el banner de cookies se inyecta despues de la carga inicial para no competir con el hero en el primer render
+- el banner de cookies se inyecta despues de la carga inicial y aparece tras interaccion o espera breve, para no competir con el hero en el primer render
 
 ## 12. Criterios para futuras iteraciones
 

@@ -127,18 +127,21 @@ function createBanner() {
 }
 
 function scheduleBanner() {
+  let shown = false;
+
   const showBanner = () => {
-    window.setTimeout(() => {
-      createBanner();
-    }, 1200);
+    if (shown) return;
+    shown = true;
+    window.removeEventListener('scroll', showBanner);
+    window.removeEventListener('pointerdown', showBanner);
+    window.removeEventListener('keydown', showBanner);
+    createBanner();
   };
 
-  if ('requestIdleCallback' in window) {
-    requestIdleCallback(showBanner, { timeout: 2000 });
-    return;
-  }
-
-  showBanner();
+  window.setTimeout(showBanner, 5000);
+  window.addEventListener('scroll', showBanner, { once: true, passive: true });
+  window.addEventListener('pointerdown', showBanner, { once: true });
+  window.addEventListener('keydown', showBanner, { once: true });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
