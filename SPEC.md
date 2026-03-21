@@ -72,7 +72,7 @@ La pagina incluye, en este orden:
 
 Texto actual:
 
-- `Quiero entrar al curso`
+- `Quiero empezar hoy`
 
 Comportamiento esperado:
 
@@ -117,7 +117,7 @@ Elementos actuales:
 
 CTA principal:
 
-- texto: `Quiero entrar al curso`
+- texto: `Quiero empezar hoy`
 - link externo a Hotmart
 - estilo `btn btn-primary`
 
@@ -194,7 +194,7 @@ Incluye:
 - kicker `Empieza hoy`
 - titulo: `Tus manos pueden crear cosas hermosas, solo necesitás dar el primer paso`
 - parrafo de apoyo sobre acceso online y garantia
-- CTA principal `Quiero entrar al curso`
+- CTA principal `Quiero aprender desde cero`
 - micropruebas:
   - `100% online`
   - `Acceso inmediato`
@@ -212,7 +212,7 @@ Bloque `#resultado` con 3 cards que explican el cambio prometido:
 
 Incluye un CTA inline:
 
-- `Quiero entrar al curso`
+- `Quiero aprender desde cero`
 
 ### 8.4 Antes y despues
 
@@ -231,7 +231,7 @@ Bloque `.testimonials` con:
 - subtitulo que enfatiza claridad y paso a paso
 - grilla de 4 testimonios
 - rating visual `5/5`
-- CTA inline `Quiero entrar al curso`
+- CTA inline `Quiero aprender desde cero`
 
 El foco del bloque esta en:
 
@@ -260,11 +260,11 @@ Comportamiento responsive esperado:
 
 Bloque `#incluye` con:
 
-- CTA inline superior `Quiero entrar al curso`
+- CTA inline superior `Quiero ver todo lo que incluye`
 - titulo centrado en base solida y errores comunes
 - grilla de 6 cards de contenido
 - desplegable `details` con temario resumido de 9 modulos
-- CTA inline `Quiero entrar al curso`
+- CTA inline `Quiero ver todo lo que incluye`
 
 Las 6 cards actuales cubren:
 
@@ -307,7 +307,7 @@ Bloque `.creator-section` con:
   - `+15 anos de experiencia`
   - `Metodo paso a paso`
   - `Enfoque practico y cercano`
-- CTA inline `Quiero entrar al curso`
+- CTA inline `Quiero aprender desde cero`
 
 ### 8.10 Garantia
 
@@ -317,7 +317,7 @@ Mensajes actuales:
 
 - compra con tranquilidad
 - 7 dias para revisar y decidir
-- CTA: `Quiero entrar al curso`
+- CTA: `Quiero entrar ahora`
 
 ### 8.11 FAQ breve
 
@@ -328,7 +328,7 @@ Bloque `.faq` con 5 preguntas desplegables sobre:
 - hobby
 - modalidad online
 - devolucion
-- CTA inline `Quiero entrar al curso`
+- CTA inline `Quiero aprender desde cero`
 
 ### 8.12 Oferta final
 
@@ -336,7 +336,7 @@ Bloque `.offer` orientado al cierre con:
 
 - kicker `Ultimo paso`
 - titulo centrado en empezar hoy y dejar la prueba y error
-- CTA final `Quiero entrar al curso`
+- CTA final `Quiero entrar ahora`
 - nota de apoyo sobre pago seguro y garantia de 7 dias
 
 ## 9. Sistema visual actual
