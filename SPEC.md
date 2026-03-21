@@ -269,12 +269,12 @@ Bloque `#incluye` con:
 
 Las 6 cards actuales cubren:
 
-- fundamentos desde cero
-- materiales y herramientas
-- proceso paso a paso
-- diseno y terminacion
-- variantes y linea natural
-- base para vender
+- inicio desde cero
+- materiales y compras con mas criterio
+- clases grabadas paso a paso
+- diseno y terminacion mas prolija
+- variantes con mas personalidad
+- base inicial para vender
 
 El temario resumido del desplegable lista 9 modulos:
 
@@ -360,8 +360,22 @@ Bloque `.offer` orientado al cierre con:
 
 - kicker `Ultimo paso`
 - titulo centrado en empezar hoy y dejar la prueba y error
+- fila de micropruebas finales sobre modalidad, ritmo, pago seguro y garantia
 - CTA final `Quiero entrar ahora`
 - nota de apoyo sobre pago seguro y garantia de 7 dias
+
+## 8.14 Medicion basica
+
+La landing envia eventos simples a GA4 cuando hay consentimiento de analitica:
+
+- `cta_click` con ubicacion del boton
+- `section_view` para `incluye`, `garantia` y `oferta_final`
+
+Esto permite medir mejor:
+
+- que CTA recibe mas interaccion
+- hasta que partes del recorrido llega la visitante
+- si el cierre final y la garantia estan siendo vistos
 
 ## 9. Sistema visual actual
 

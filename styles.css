@@ -632,6 +632,26 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.include-card {
+  padding: 1rem 0.95rem;
+  background: linear-gradient(180deg, rgba(255, 250, 244, 0.98) 0%, rgba(255, 246, 238, 0.96) 100%);
+  border: 1px solid rgba(235, 216, 200, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(95, 59, 32, 0.08);
+}
+
+.include-card h3 {
+  color: var(--accent-dark);
+  margin-bottom: 0.3rem;
+}
+
+.include-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 .module-card {
   margin-top: 1rem;
   overflow: hidden;
@@ -780,6 +800,27 @@ h3 {
   padding: clamp(1.5rem, 3vw, 2.5rem);
   text-align: center;
   background: linear-gradient(180deg, #fff8ef 0%, #fffdf9 100%);
+}
+
+.offer-reassurance {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+  margin: 1rem 0 0.2rem;
+}
+
+.offer-reassurance span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.15rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 248, 240, 0.92);
+  border: 1px solid var(--line);
+  color: var(--accent-dark);
+  font-size: 0.88rem;
+  font-weight: 800;
 }
 
 .offer-box p {
@@ -1156,6 +1197,15 @@ h3 {
     line-height: 1.12;
   }
 
+  .include-card {
+    padding: 0.95rem 0.9rem;
+    border-radius: 18px;
+  }
+
+  .include-card p {
+    font-size: 0.9rem;
+  }
+
   .module-columns {
     gap: 0.2rem;
     padding: 0 1rem 1rem;
@@ -1200,6 +1250,17 @@ h3 {
 
   .offer-box {
     padding: 1.25rem 1rem;
+  }
+
+  .offer-reassurance {
+    gap: 0.5rem;
+    margin-top: 0.9rem;
+  }
+
+  .offer-reassurance span {
+    min-height: 1.95rem;
+    padding: 0.34rem 0.72rem;
+    font-size: 0.8rem;
   }
 
   .btn {
