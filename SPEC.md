@@ -310,7 +310,7 @@ Incluye:
 
 - titulo `Mira el curso por dentro`
 - subtitulo orientado a mostrar la plataforma y el tipo de clases antes de entrar
-- video HTML5 alojado en Cloudinary
+- video HTML5 alojado en Cloudinary con controles visibles, `poster` y carga diferida
 - contenedor refinado con fondo claro, borde suave y sombra calida
 - microfrase de apoyo para remarcar que se puede ver con claridad que incluye
 - CTA `Quiero empezar hoy`
@@ -319,6 +319,7 @@ Comportamiento esperado:
 
 - se integra visualmente con el resto de las cards premium del sitio
 - el video funciona como prueba visual del producto, no como pieza emocional principal
+- al estar debajo del primer pantallazo, no debe competir por carga inicial con el hero
 - en mobile mantiene proporcion limpia, sin desbordes y con CTA a ancho completo
 
 ### 8.9 Creadora del curso

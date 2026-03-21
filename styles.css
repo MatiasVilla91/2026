@@ -73,7 +73,7 @@ body {
   background:
     linear-gradient(180deg, rgba(248, 242, 234, 0.9) 0%, rgba(248, 242, 234, 0.82) 44%, rgba(248, 242, 234, 0.95) 100%),
     linear-gradient(90deg, rgba(255, 250, 244, 0.7) 0%, rgba(255, 250, 244, 0.18) 46%, rgba(255, 250, 244, 0.7) 100%),
-    url("./img/background.jpg");
+    url("https://res.cloudinary.com/dlppjyxmb/image/upload/v1774072516/background_jbeavi.jpg");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
