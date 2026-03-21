@@ -99,13 +99,15 @@ El hero esta compuesto por:
 - `section.hero-content`
 - columna izquierda `.hero-copy`
 - columna derecha `.hero-card`
+- carrusel visual de imagenes arriba del `h1` dentro de `.hero-copy`
 
 ### Copy principal
 
 Elementos actuales:
 
 - kicker: `Curso online paso a paso para principiantes`
-- `h1` centrado en aprender desde cero y lograr acabado profesional
+- carrusel horizontal automatico con imagenes de resultados del curso
+- `h1`: `Aprende a crear jabones de glicerina hermosos paso a paso desde cero`
 - parrafo de apoyo orientado a hobby, regalo o primeros pasos de venta
 - lista `trust-bullets` con 4 puntos de confianza
 - bloque `hero-actions` con CTA principal y CTA secundario
@@ -147,9 +149,11 @@ La tarjeta `.hero-card` resume la oferta y contiene:
 
 - el contenido arranca alto en pantalla y sin aire excesivo
 - el layout usa dos columnas en desktop
+- el carrusel suma prueba visual rapida antes del titular, sin competir con el CTA
 - el video queda integrado como pieza de apoyo y no como bloque dominante
 - el `h1` tiene ancho suficientemente amplio para evitar cortes innecesarios
 - en mobile el hero pasa a una sola columna sin romper ritmo ni legibilidad
+- en mobile el carrusel del hero se mantiene en una version mas compacta y centrada
 
 ## 7. Orden real de secciones en `main`
 
@@ -188,7 +192,7 @@ Bloque `.bridge-cta` ubicado inmediatamente despues del hero y antes de objecion
 Incluye:
 
 - kicker `Empieza hoy`
-- titulo corto orientado a entrar de inmediato
+- titulo: `Tus manos pueden crear cosas hermosas, solo necesitás dar el primer paso`
 - parrafo de apoyo sobre acceso online y garantia
 - CTA principal `Quiero empezar ahora`
 - micropruebas:
@@ -399,7 +403,8 @@ Hasta `720px`:
 
 - navbar mantiene posicion fija
 - hero pasa a flujo simple de una columna
-- todos los botones pasan a ancho completo
+- los CTAs de contenido pasan a ancho completo
+- el CTA del navbar se mantiene compacto para no romper el header
 - se compactan paddings del hero
 - la galeria reduce complejidad ocultando `J1`
 - todas las grillas principales pasan a una sola columna
