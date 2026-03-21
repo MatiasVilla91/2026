@@ -160,24 +160,28 @@ La tarjeta `.hero-card` resume la oferta y contiene:
 El orden actual esperado es el siguiente:
 
 1. CTA puente
-2. Objeciones comunes
-3. Transformacion / resultado
+2. Dudas iniciales / friccion
+3. Resultado posible
 4. Antes y despues
 5. Testimonios
 6. Galeria visual de resultados
 7. Que incluye el curso
 8. Vista del curso por dentro
 9. Creadora del curso
-10. Encaje del curso
+10. Decision de encaje
 11. Garantia
 12. FAQ breve
 13. Oferta final
 
 ## 8. Descripcion de secciones
 
-### 8.1 Objeciones comunes
+### 8.1 Dudas iniciales / friccion
 
 Bloque `.objections` con 4 cards orientadas a remover friccion inicial.
+
+Kicker actual:
+
+- `Si hoy tienes dudas, esto te puede ayudar`
 
 Mensajes actuales:
 
@@ -203,9 +207,13 @@ Incluye:
 
 Su funcion es capturar a la visitante de alta intencion antes de entrar al bloque de objeciones.
 
-### 8.3 Transformacion / resultado
+### 8.3 Resultado posible
 
 Bloque `#resultado` con 3 cards que explican el cambio prometido:
+
+Kicker actual:
+
+- `Lo que puedes lograr`
 
 - empezar con claridad
 - mejorar el resultado final
@@ -235,6 +243,10 @@ Bloque `.testimonials` con:
 - CTA inline `Quiero aprender desde cero`
 
 El foco del bloque esta en:
+
+Kicker actual:
+
+- `Experiencias de alumnas`
 
 - claridad para aprender
 - motivacion
@@ -322,9 +334,13 @@ Bloque `.creator-section` con:
 - `Enfoque practico y cercano`
 - CTA inline `Quiero aprender desde cero`
 
-### 8.10 Encaje del curso
+### 8.10 Decision de encaje
 
 Bloque `.audience` reubicado despues de la seccion de creadora y antes de garantia.
+
+Kicker actual:
+
+- `Para ver si es para ti`
 
 Incluye dos cards:
 
